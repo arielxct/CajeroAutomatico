@@ -1,0 +1,40 @@
+
+body{
+    background-color: #ccc;
+}
+.saldo{
+    background-color: yellowgreen;
+}
+.operaciones{
+    background-color: darkkhaki;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.p{
+    background-color: chocolate;
+
+}
+input{
+    background-color: aquamarine;
+    width: 200px;
+    height: 40px;
+}
+
+ 
+  input:hover {
+    background-color: #b3eeb6;
+  }
+  button{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 50px;
+  }
+  button:hover{
+    background-color: rgb(93, 227, 231);
+  }
+  .informe{
+    background-color: coral;
+  }

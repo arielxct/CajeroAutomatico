@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAJERO AUTOMATICO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cajero.js" ></script>
+</head>
+<body>
+    
+
+        <h1>CAJERO AUTOMATICO</h1>
+        <h2>MOVIMIENTOS BANCARIOS</h2>
+
+        <section class="saldo">
+            <h2>CONSULTA DE SALDO</h2>
+            <button onclick="consultaSaldo()">consultar</button>
+            <p id="consultaSaldoBancario"></p>
+    
+
+        </section>
+       
+        <h2>ELIJA UNA OPERACION ES INGRESE EL MONTO DE LA MISMA</h2>
+        <section class="operaciones">
+
+            
+           
+				
+            <input type="number" id="extraccion" placeholder="Ingrese el monto de extraccion">
+            <input type="number" id="deposito" placeholder="Ingrese el monto a depositar">
+            <input type="number" id="transferencia" placeholder="Ingrese el monto a transferir">
+            <button onclick="movimientosBancarios()">Ejecutar</button>
+        </section>
+
+        <section class="informe">
+            <p id="informeMovimientoBancario"></p>
+    
+        </section>
+    
+        
+   
+</body>
+</html>
+
+
